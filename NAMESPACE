@@ -1,0 +1,24 @@
+useDynLib(oncfsMisc)
+import(graphics,sp,stats,grid,adehabitatMA,methods)
+
+importFrom("grDevices", "graphics.off", "grey", "n2mfrow")
+importFrom("utils", "head")
+importFrom("ade4","dudi.pca","as.randtest","acm.disjonctif")
+
+
+exportPattern("^[^\\.]")
+export(.oncfsEnv)
+
+S3method(plot, oprpu)
+S3method(plot, kuomal)
+
+S3method(boxplot, pca)
+
+S3method(print, kuomal)
+S3method(print, oprpu)
+S3method(print, maxent)
+
+S3method(predict, maxent)
+S3method(coef, maxent)
+
+S3method(summary,kuomal)

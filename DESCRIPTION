@@ -1,0 +1,10 @@
+Package: oncfsMisc
+Type: Package
+Title: Miscellaneous Functions Used at the ONCFS
+Version: 1.0
+Date: 2016-02-11
+Depends: R (>= 3.0.1), sp, methods, grid, adehabitatMA, ade4
+Author: Clement Calenge
+Maintainer: Clement Calenge <clement.calenge@oncfs.gouv.fr>
+Description: Miscellaneous functions used at the ONCFS (French wildlife management organization).
+License: GPL (>= 2)
