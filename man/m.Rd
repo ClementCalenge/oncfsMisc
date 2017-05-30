@@ -16,10 +16,11 @@
 m(x, ...)
 year(x)
 month(x)
-mat2spdf(x, ID="A")
+mat2spdf(x, id="A")
 }
 \arguments{
   \item{x}{an R object}
+  \item{id}{the ID of the polygon}
   \item{\dots}{additionnal arguments to \code{as.matrix}}
 }
 \value{
