@@ -1,23 +1,33 @@
 \name{m}
 \alias{m}
+\alias{year}
+\alias{month}
+\alias{mat2spdf}
 \title{
-  Just a quick alias for the function as.matrix
+  Various functions used daily.
 }
 \description{
-  Just a quick alias for the function as.matrix
+  \code{m} is just a quick alias for the function \code{as.matrix}.
+  \code{year} and \code{month} extract the year and the month
+  respectively from a \code{POSIXt} object.  \code{mat2spdf} converts a
+  two column matrix to a SpatialPolygons object with one polygon.
 }
 \usage{
 m(x, ...)
+year(x)
+month(x)
+mat2spdf(x, ID="A")
 }
 \arguments{
   \item{x}{an R object}
   \item{\dots}{additionnal arguments to \code{as.matrix}}
 }
 \value{
-  a matrix
+  \code{m} returns a matrix. \code{year} and \code{month} return a
+  vector. \code{mat2spdf} return a \code{SpatialPolygons} object.
 }
 \seealso{
-  \code{\link{as.matrix}}
+  \code{\link{as.matrix}}, \code{\link{POSIXt}}.
 }
 \examples{
 ## No examples
