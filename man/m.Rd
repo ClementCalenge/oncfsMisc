@@ -11,12 +11,16 @@
   \code{year} and \code{month} extract the year and the month
   respectively from a \code{POSIXt} object.  \code{mat2spdf} converts a
   two column matrix to a SpatialPolygons object with one polygon.
+  \code{docbind(x)} is a shortcut for \code{do.call(cbind, x)}, and
+  \code{dorbind(x)} is a shortcut for \code{do.call(rbind, x)}.
 }
 \usage{
 m(x, ...)
 year(x)
 month(x)
 mat2spdf(x, id="A")
+docbind(x)
+dorbind(x)
 }
 \arguments{
   \item{x}{an R object}
