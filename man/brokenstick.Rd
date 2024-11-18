@@ -34,6 +34,11 @@ brokenstick(pc, niter = 1000)
   simulated \code{niter} times, and is represented for each axis.
 }
 \value{
+  A list and a plot. The plot presents the enveloppe at 80, 90 and 95
+  percent of the simulations. The actual eigenvalues are shown in black.
+  The mean of the simulations is shown in green. The theoretical distribution
+  of identical eigenvalues for all axes is shown in red.
+
   A list with two elements:
   \item{obs}{a vector containing the \code{ncolmax}  first observed eigenvalues of the PCA}
   \item{sim}{a matrix containing \code{niter} rows and \code{ncolmax}

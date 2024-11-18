@@ -301,6 +301,8 @@ s.arrowg <- function(dfxy, xax=1, yax=2, new=TRUE, summarize=3, axes=TRUE, grid=
     ra <- apply(dfxy,2,range)
     ra[1,1] <- min(c(ra[1,1], -0.1))
     ra[1,2] <- min(c(ra[1,2], -0.1))
+    ra[2,1] <- max(c(ra[2,1], 0.1))
+    ra[2,2] <- max(c(ra[2,2], 0.1))
     di2 <- apply(ra,2,diff)
     di <- max(di2)
     whi <- which.min(di2)

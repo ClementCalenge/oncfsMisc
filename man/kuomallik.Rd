@@ -166,15 +166,15 @@ evalconv.effects(x, ngroups = 5)
 ##  First example.
 ##
 ## To make the calculation reproducible
-set.seed(123)
+set.seed(777)
 
 ## We set up the data
 fert <- swiss$Fertility
 X <- swiss
 X$Fertility <- NULL
 
-## We fit the model
-lm1 <- kuomallick(fert, X, type="gaussian")
+## We fit the model (slow!)
+lm1 <- kuomallick(fert, X, type="gaussian", nsim=100000)
 
 ## Remove 500 observations as burnin sample
 lm1 <- removeBurnin(lm1, 500)
@@ -182,18 +182,10 @@ lm1 <- removeBurnin(lm1, 500)
 ## Convergence of the coefficients ai
 plot(lm1)
 
-## Infant mortality is weird: a use of the raftery approach:
-raftery.diag(lm1$resu)
-
-## Do not pay attention to the coefficients ki (name starting with
-## "Effect."), as the raftery diagnostic is not valid in this case. 
-## For Intercept, Education, Infant.Mortality, the mixing is slow.
-
 ## Examinate the convergence of the coefficients ki
 evalconv.effects(lm1)
 
-## It seems ok, except for Agriculture (slow decrease in the
-## probability).
+## It seems ok, though there is a large variability between subchains.
 ## In theory, we should increase the number of iterations
 ## in the function kuomallick... Here, we just demonstrate this 
 ## function, so that we do not really care.
@@ -218,7 +210,7 @@ lm1
 ##  Same example, but we illustrate the case where one
 ##  variable is categorical
 
-set.seed(123)
+set.seed(777)
 
 ## We set up the data
 fert <- swiss$Fertility
@@ -253,7 +245,7 @@ lm2$listevar
 ##  Same example, but we illustrate the case where we 
 ##  prepare the data prior to the fit
 
-set.seed(123)
+set.seed(777)
 
 ## We set up the data
 fert <- swiss$Fertility
@@ -295,12 +287,12 @@ lm4
 
 ## By the way, note that changing the initial values changes the
 ## conclusions in comparison to lm3, lm2, etc.. This confirms that the
-## fit of the model used here is problematic (the readeur could try a
+## fit of the model used here is problematic (the reader could try a
 ## longer run, by increasing nsim in kuomallik)
 ## reach a better convergence)
 ## Warning!!!! Very slow approach!!!
 lm5 <- kuomallick(fert, as.data.frame(Xdesi), type="gaussian",
-                  listevar=li, theta=initval, nsim=100000)
+                  listevar=li, theta=initval, nsim=1000000)
 
 }
 

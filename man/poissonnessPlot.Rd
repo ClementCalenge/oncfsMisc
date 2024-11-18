@@ -57,7 +57,7 @@ set.seed(980)
 po <- rpois(500, 2)
 poissonnessPlot(po)
 
-## Poisson distribution with parameter lower than 0
+## Poisson distribution with parameter lower than 1
 poissonnessPlot(rpois(5000, 0.3))
 
 ## Poisson distribution with parameter from a log-normal distribution
