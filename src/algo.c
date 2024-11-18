@@ -695,7 +695,7 @@ SEXP eigendecompo(SEXP mat)
 
     F77_NAME(dsyev)(&jobz, &uplo,
 		    &p, REAL(matc), &p, REAL(valp), 
-		    REAL(work), &lwork, &info);
+		    REAL(work), &lwork, &info FCONE FCONE);
     
 
     /* Checks if the algorithm converged */

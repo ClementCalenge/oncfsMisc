@@ -54,7 +54,7 @@ fitmod(per, increaseres = 1L)
     introduction}. Oxford University Press.
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \examples{
 ## Use the dataset lh and identify the most important frequencies

@@ -16,7 +16,7 @@ clock()
 stopclock()
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \examples{
 \dontrun{

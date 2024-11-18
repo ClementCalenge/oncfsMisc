@@ -190,7 +190,7 @@ maxentcore(df, y, beta = 0, betaj = NULL,
   472--486. 
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \examples{
 \dontrun{

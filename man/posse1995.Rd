@@ -88,7 +88,7 @@ posse1995(df, foo, par = NULL, centsca = TRUE, sphere = FALSE, c = 1,
   83--100.
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \seealso{
   \code{\link{projpurs}} for one dimensional projection pursuit, and for

@@ -3,6 +3,8 @@
 \alias{year}
 \alias{month}
 \alias{mat2spdf}
+\alias{docbind}
+\alias{dorbind}
 \title{
   Various functions used daily.
 }

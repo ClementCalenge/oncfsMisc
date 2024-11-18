@@ -43,7 +43,7 @@ invSAT(X)
   data analysis. \emph{IEEE Transactions on Computers}, c23: 881--890.
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \seealso{
   \code{\link{projpurs}} for further details on the projection pursuit

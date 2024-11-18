@@ -44,7 +44,7 @@ brokenstick(pc, niter = 1000)
   \emph{Numerical Ecology}. Elsevier Science: Amsterdam.
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \seealso{
   \code{\link{examACP}} for another selection approach of the number of

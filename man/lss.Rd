@@ -16,7 +16,7 @@ lss(cls = "data.frame", ...)
   \item{\dots}{ additionnal elements passed to the function \code{ls}}
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \seealso{
   \code{\link{ls}}

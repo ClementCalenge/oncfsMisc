@@ -26,7 +26,7 @@ poissonnessPlot(x, truncate=-1, outer=1.5,...)
   \code{x} is Poisson distributed.  The points (k, phi(nk)) are
   represented as red points on the plot.  To account for the sampling
   variation of nk, Hoaglin and Tukey recommend to calculate a modified
-  value {nk*}, and to calculate a symetric confidence interval on
+  value \code{nk*}, and to calculate a symetric confidence interval on
   phi(nk*).  The 95\% confidence intervals are represented as thick line
   segments (and the centers nk* are represented as open circle).
   Hoaglin and Tukey recommend to "expand" these confidence intervals to
@@ -47,7 +47,7 @@ poissonnessPlot(x, truncate=-1, outer=1.5,...)
   sons. 
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \examples{
 ## For reproducibility

@@ -52,7 +52,7 @@ pp2.FriedmanTukey(x)
   the American Statistical Association}, 82: 249--266.  
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \seealso{
   \code{\link{projpurs}} for additional details on the one-dimensional

@@ -22,7 +22,7 @@ wildboar(x, y = x, cex = 1, colo = "brown")
   The wildboar is displayed on the graph.
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \examples{
 

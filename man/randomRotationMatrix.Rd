@@ -51,7 +51,7 @@ randomRotationMatrix(dim = 3, method = c("A","B"))
   \url{http://home.lu.lv/~sd20008/papers/essays/Random\%20unitary\%20\%5Bpaper\%5D.pdf}
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \examples{
 

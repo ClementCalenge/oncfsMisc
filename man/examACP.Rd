@@ -67,7 +67,7 @@ examACP(pc, ncolmax = 3, niter = 100)
   \bold{70}, 164-168.
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \seealso{
   \code{\link{brokenstick}} for another test.

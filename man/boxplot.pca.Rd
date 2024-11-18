@@ -14,7 +14,7 @@
   \item{\dots}{additional arguments to be passed to and from other functions}
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \seealso{
   \code{\link[ade4]{dudi.pca}}, ~~~

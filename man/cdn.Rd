@@ -32,7 +32,7 @@ cdn(xy, z, limits = NULL, span = 0.25, le = 100, degree = 2, \dots)
   An object of class \code{SpatialPixelsDataFrame}
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \seealso{
   \code{\link{loess}}

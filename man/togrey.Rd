@@ -16,7 +16,7 @@ togrey(x)
   a vector of grey levels
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \examples{
 plot(1:10, pch=16, col=togrey(1:10))

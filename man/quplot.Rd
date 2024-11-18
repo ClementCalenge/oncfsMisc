@@ -23,7 +23,7 @@ quplot(x, ylab = "", main = "", \dots)
   Cleveland, W. (1993) \emph{Visualizing data}. Hobart Press.
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \examples{
 

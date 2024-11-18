@@ -155,7 +155,7 @@ evalconv.effects(x, ngroups = 5)
   models. \emph{Sankya: The Indian Journal of Statistics}, 60: 65--81.
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \examples{
 

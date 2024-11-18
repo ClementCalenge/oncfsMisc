@@ -82,7 +82,7 @@ polygrid(x, vpb, fill = "white", border = "black", pbg = "white", bb = bbox(x))
   These functions return, invisibly, the viewport containing the plot
 }
 \author{
-  Clement Calenge \email{clement.calenge@oncfs.gouv.fr}
+  Clement Calenge \email{clement.calenge@ofb.gouv.fr}
 }
 \seealso{
   \code{\link[ade4]{s.value}}, \code{\link[ade4]{s.label}},
